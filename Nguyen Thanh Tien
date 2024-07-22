@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="index.css">
+<title>GreenFood Restaurant</title>
+</head>
+<body>
+<main>
+<header>
+  <div class="nav">
+    <h1>GreenFood Restaurant</h1>
+    <ul class="nav-links">
+      <li><a href="#">Trang chủ</a></li>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Khuyến mãi</a></li>
+      <li><a href="#">Tuyển dụng</a></li>
+      <li><a href="#">Tin tức</a></li>
+    </ul>
+    <div class="nav-icons">
+      <label for="search-text">
+        <input class ="input_1" type="search" class="fas fa-search search-icon" id="search-text">
+        <i id="search-icon" class="fas fa-search search-icon"></i>
+      </label>
+      <i class="fas fa-user user-icon"></i>
+      <i class="fas fa-shopping-cart cart-icon"></i>
+    </div>
+  </div>
+</header>
+
+<div class="box_member">
+  
+    <form class="form">
+    <form action="submit_feedback.php" method="post" class="form">
+     
+      <label>Đặt bàn trực tuyến</label>
+      <div class="field">
+        <span class="material-symbols-outlined"></span>
+        <input autocomplete="off" type="text" class="input-field" placeholder="Tên" required>
+      </div>
+      <div class="field">
+        <span class="material-symbols-outlined"></span>
+        <input autocomplete="off" type="text" class="input-field" placeholder="Họ" required>
+      </div>
+      <div class="field">
+        <span class="material-symbols-outlined"></span>
+        <input autocomplete="off" type="text" class="input-field" placeholder="Email" required>
+      </div>
+      <div class="field">
+        <span class="material-symbols-outlined"></span>
+        <input autocomplete="off" type="number" class="input-field" placeholder="Số Lượng khách" required>
+      </div>
+      <label for="date">Chọn ngày:</label>
+    <input type="date" id="date" name="date">
+    
+    <br><br>
+
+    <label for="time">Chọn giờ:</label>
+    <input type="time" id="time" name="time">
+    
+    <br><br>
+    
+
+  
+      <label>Gói thành viên:</label>
+      <select class="field1" required>
+        <option value="" disabled selected></option>
+        <option value="vn">3 tháng </option>
+        <option value="vietnam">6 tháng</option>
+        <option value="donglao">1 năm</option>
+      </select>
+      <div class="button-container">
+        <button type="submit" class="button">Đăng kí</button>
+      </div>
+    </form>
+
+  <img src="https://nhahangdep.vn/wp-content/uploads/2021/05/sen-buffet-tay-ho-03.jpg" alt="Sample Image" class="member-image">
+
+
+</div>
+
+<div class="container">
+  <div class="box_1">
+    <div class="home_member_days">
+      <img src="//theme.hstatic.net/1000093072/1001049829/14/home_member_days.jpg?v=174" alt="Home Member Days">
+      <div class="text-overlay-box_1">
+        Đến với nhà hàng, khách hàng sẽ thấy được không gian thoáng đãng, có những phòng riêng biệt dành cho hội họp hay sinh nhật với màu trầm và xanh lá chủ đạo. Sẽ gợi nhớ cho những người con xa quê cảm nhận được như mình không trở về nhà.
+      </div>
+    </div>
+  </div>
+  <div class="box_2">
+    <div class="home_member_days">
+      <img src="https://bazantravel.com/cdn/medias/uploads/84/84300-la-rive-gouche-da-nang.jpg" height="400" alt="Home Member Days">
+      <div class="text-overlay-box_2">
+        <p>Thời Gian Hoạt Động:</p>
+        <p>11h00 - 21h30</p>
+        <p>Thời Gian Phục Vụ Buffet:</p>
+        <p>17h30 - 21h00</p>
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+</body>
+</html>
